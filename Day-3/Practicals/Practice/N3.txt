@@ -1,0 +1,39 @@
+Day-3
+-------------------------------------------------------
+1). First, I had performed the Clone operation to bring my Private
+    Remote Repo into my local System
+
+2). Then performed various Branch creating and Merging Operation.
+
+3). I had create one branch named as a "development" from main branch,
+    and now it contin the repository of the main branch.
+
+4). I had also create another branch named as a "Test" branch from the 
+    "development" branch and now it contains the Repo of development branch.
+
+5). I had create one file named as "Sample3.html" in "Day3/Practicals" folder 
+    in my local system and push this change into Remote System.
+
+6). Merge --> From development to main
+    And then, I had Merged from "development" branch to Main branch which 
+    make possible to bring the changes of "development" into my "Main" branch.
+
+7). And I'm navigating the Branches through Checkout command in which i had 
+    to choose those branch, in which i would like to navigate to.
+
+8). Reverse Merge -->From main to development
+    first i had made changes in the main file and merge from main to development 
+    to reflect.
+
+9). When I made Changes in a index3.html of both "main" branch and "development" branch
+    in the same line it throws a conflict.
+
+10).So, to resolve this conflict, I had Merged both the branches and Accept the
+    Changes of both branch in "index3.html" file of "development" branch only.
+
+11). I had performed this Merging Task on Day3/Practicals Folder of this private 
+     Repository.
+
+
+
+    
