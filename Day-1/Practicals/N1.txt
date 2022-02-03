@@ -1,0 +1,40 @@
+Day-1 
+-------------------------------------
+1) Sign in to github account.
+
+2) Created one github Repository named as "Induction22".
+
+3) Also created one file named as "Index1.html" in that Repository.
+
+4) Then created one folder named as "Induction22" in that folder, I wanted 
+   to clone my Remote Repository.
+
+5) I had done clone operation using command prompt by performing the below steps:
+
+         i.First set the path.
+     
+         ii.Then run the command git clone URL(Remote Repository). 
+
+6) Finally these clone operation copy my Remote Repository in the local System.
+ 
+7) Then I had perform various operation & Changes in local & Remote Repository Via 
+   the visual Studio code.
+
+8) Pull ---> Then I had performed "Pull" operation, so that I can reflect the changes of Remote 
+   Repo in my Local Repo via a VS Code.
+
+9) Push ---> Used this operation to reflect the changes of local Repo into the Remote Repo.
+
+10) I had again made changes in the Remote Repo and also made changes in the local Repo but,
+    when I had tried to push the Changes to the Remote Repo the conflict Arise.
+   
+
+11) So, the question is that How to resolve these conflict?
+    To resolve this conflict first it need to pull the changes then only 
+    it is possible to push and a final commit.
+
+12) And here all the file is on main branch by default.
+
+13) URL(RemoteRepo) -----> https://github.com/asmagazi/Induction22.git
+                           ___________________________________________
+   
