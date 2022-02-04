@@ -1,0 +1,21 @@
+name: Sonar-Development
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: development
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: 3101f8ab0cef4dd2b0ff75d0fddf5c019931be0f
+          SONAR_HOST_URL: http://3.6.85.37:9000
