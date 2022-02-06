@@ -33,6 +33,8 @@ Day-3
 
 11). I had performed this Merging Task on Day3/Practicals Folder of this private 
      Repository.
+     
+12). Adding an Issue commit.   
 
 
 
