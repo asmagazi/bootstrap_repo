@@ -1,0 +1,33 @@
+Day-4 of Training
+---------------------
+SVN Learning
+____________
+
+SVN - Stands for "Subversion" or "Software Network Version"
+
+SVN is a open source version control system, used for 
+versioning and revision.
+
+It is a centralized version control system.
+
+In Centrailzed VCS, their is one central system and the working 
+Copy in our local system.
+
+For example, there are different people working on a project,
+so they all work on their personal working copy on their local
+system and all the member then commiting their changes in that 
+one "central Repository or Central System"
+
+First step towards SVN is to install the TortoiseSVN.
+
+I had created one empty folder and by right clicking 
+perform the TortoiseSVN, and the logo of the folder was changed.
+
+Created another folder and checkout in that folder.
+
+And, then commited the file by commit option with authentication.
+
+
+
+
+
