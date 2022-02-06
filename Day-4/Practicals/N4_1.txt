@@ -1,0 +1,49 @@
+Day-4 of Training
+--------------------
+Self Learning Topic --> 1. Cherrypick
+                        2. Rebase
+
+1). Cherrypick 
+    ----------
+    These Cherrypick concept is used only,if we want a specific commit of one
+    branch on the another branch.
+    
+    Practice
+    ________
+
+    In these, I have three branches but I had used development, and test branch
+    to perform these cherrypick operation.
+    
+    So for that purpose, I had first merge both development and test branch.
+     
+    And make one small change in index4.html of Test branch and commit it as "Commit on changes in index4.html" 
+    and using this "git log" command of test branch & copied the address of commit.
+    
+    And checkout to development branch and run the command "git cherry-pick 3601a53806e6f56758b13f0c92fb858cbd8a4b2b
+    (address of the commit)".
+   
+    After that, the same commit was copied on development branch.
+    
+    And finally, pushes that all changes in the Remote Repository.
+
+
+2). Rebase
+    --------
+    Rebase is a git operation that allows you to rewrite commits 
+    from one branch onto another branch.
+
+    Essentially, Git is deleting commits from one branch, and  
+    adding it to another branch.
+
+    It is used to maintain a linear project history
+
+    There are two modes of Git Rebase,
+    i) Git Rebase Standard - it takes no arguments.
+
+    ii) Git Rebase Interactive - it takes an arguments.
+    
+    Git Merge vs Git Rebase --> Git Merge shows the group of commits & it also preserves the history of commits.
+
+                                Git Rebase shows the linear sequence of commits, & it vanishes the history.
+
+    
