@@ -27,7 +27,7 @@ Created another folder and checkout in that folder.
 
 And, then commited the file by commit option with authentication.
 
-
+Closing an Issue
 
 
 
